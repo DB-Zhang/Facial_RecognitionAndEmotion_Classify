@@ -1,0 +1,10 @@
+fer2013.csv是数据集
+covertfer_2013.py是数据集处理成图片
+covert_img是整理成我们需要打数据格式
+classify_NetWork.py是识别的程序
+
+
+Final_Model.py 中 Classify_train(is_train,is_continue,looptimes=20) 函数是训练用的，默认训练20轮，使用了VGG-16的network
+		is_continue用作停下来时候下次继续训练用，改成True即可
+	       predict_pic(pic_path)      函数是预测用的，返回一个字符串‘Angry’ ‘Happy’ 或者‘Others’，要求该地址输入的图片大小是48*48
+其中当它当作main函数使用时，默认从头训练训练50轮
