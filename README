@@ -6,3 +6,5 @@ os.chdir目的是改变工作目录便于进行工作
 
 由于weight权重过大无法上传，可用进入classify文件集查看那里的readme进行自由训练
 
+darkflow来自github项目https://github.com/thtrieu/darkflow
+
